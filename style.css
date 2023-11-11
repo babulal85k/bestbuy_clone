@@ -208,10 +208,83 @@ header .Cart a {
 
   middle-section > .middle {
     background-color: white;
-    height: 800px;
+    background: url(https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-85825-GHP_LV-3day-c2f9c02f-4aa0-4bd2-8bc0-b8ff5a313d67.jpg);
+    height: 300px;
+    position: relative;
   }
 
   footer > bottom {
     background-color: #90959e;
     height: 200px;
+  }
+
+  .offer {
+    display: flex;
+    border: 2px solid brown;
+    justify-content: center;
+
+  }
+
+  .offer > :nth-child(1){
+    display: flex;
+    /* border: 2px solid green; */
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+  }
+
+  .offer > :nth-child(2) {
+    display: flex;
+    /* border: 2px solid blue; */
+    margin-left: 60px;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+    width:290px;
+  }
+
+  .end {
+    background-color: red;
+    width: 90px;
+    color: white;
+    padding: 3px;
+    font-size: 13px;
+  }
+
+  .sale {
+    color: #001e73;
+    font-size: 90px;
+    font-weight: bolder;
+  }
+
+  .friday {
+    color: #001e73;
+    font-size: 22px;
+  }
+
+  .sunday {
+    margin-top: 30px;
+    margin-right: 60px;
+  }
+
+  .plus {
+    margin-top: 30px;
+    font-size: 15px;
+    color: rgb(43, 40, 40);
+  }
+
+  .limit {
+    font-size: 11px;
+    width: 180px;
+    color: #55555a;
+  }
+
+  .now {
+    color: white;
+    background-color: var(--primary-color);
+    width: 75px;
+    padding: 4px;
+    border: none;
+    border-radius: 3px;
   }
