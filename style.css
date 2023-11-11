@@ -31,6 +31,13 @@ header .nav-container {
     margin: 0 auto;
 }
 
+.nav-container {
+    position: sticky;
+    top: 0;
+    background-color: var(--primary-color); /* Replace with your desired background color */
+    z-index: 100; /* Adjust the z-index as needed */
+}
+
 header .nav-container .logo {
     display: flex;
     min-width: 10px;
@@ -99,4 +106,40 @@ header .menu svg {
     background-color: var(--primary-color);
 }
 
-<button class="c-button-unstyled store-loc-btn" type="button" aria-label="Your Store: Aiea" data-cy="location-tooltip-lv-button" aria-expanded="false" aria-controls="store-loc-overlay"><span class="gvpHeadIcon storeLocIcon flyBtn" data-cy="MenuIcon" data-testid="menu-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" xml:space="preserve" aria-hidden="true" role="img" width="30" height="31" fill="#fff"><path d="M19.25 22H4.75C3.23 22 2 20.77 2 19.25v-9.5c0-.41.34-.75.75-.75s.75.34.75.75v9.5c0 .69.56 1.25 1.25 1.25h14.5c.69 0 1.25-.56 1.25-1.25v-7.5c0-.69-.56-1.25-1.25-1.25-.04 0-.09 0-.13-.01l-2.36.01c-.41 0-.75-.33-.75-.75-.01-.41.32-.75.74-.75l2.5-.01c.06-.02.11.01.17.02C20.85 9.1 22 10.3 22 11.75v7.5c0 1.52-1.23 2.75-2.75 2.75z"></path><path d="M15.75 14.5h-7.5c-.41 0-.75.34-.75.75v6c0 .41.34.75.75.75s.75-.34.75-.75V16h2.25v5.25c0 .41.34.75.75.75s.75-.34.75-.75V16H15v5.25c0 .41.34.75.75.75s.75-.34.75-.75v-6c0-.41-.34-.75-.75-.75zM4.05 6.96c0-.41.34-.75.75-.75s.75.34.75.75a.749.749 0 1 1-1.5 0z"></path><path d="M15.75 12.5H5.25a.75.75 0 0 1-.53-.22l-3-3a.75.75 0 0 1-.22-.53v-3.5c0-.2.08-.39.22-.53l3-3a.75.75 0 0 1 .53-.22h10.5c.96 0 1.75.79 1.75 1.75v7.5c0 .96-.79 1.75-1.75 1.75zM5.56 11h10.19c.14 0 .25-.11.25-.25v-7.5c0-.14-.11-.25-.25-.25H5.56L3 5.56v2.88L5.56 11z"></path></svg></span><span class="store-display-name" data-cy="location-tooltip-lv-display-name">Aiea</span></button>
+header .storeicon {
+    margin-left: 330px;
+    
+}
+
+header .storeicon button {
+    background-color: var(--primary-color); /* Replace with your primary color */
+    color: white;
+    border: none; /* Remove button border if desired */
+    padding: 10px 20px; /* Adjust padding as needed */
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    margin: 15px;
+    font-size: 20px;
+}
+
+header .Cart {
+    height: 1000%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+header .Cart svg {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+header .Cart a {
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
