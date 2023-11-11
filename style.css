@@ -1,0 +1,145 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f1f3f6;
+}
+
+:root {
+    --primary-color: rgb(0,70,190);
+}
+
+.container {
+    padding: 0 8px;
+}
+
+header {
+    background-color: var(--primary-color);
+    height: 70px;
+}
+
+header .nav-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.nav-container {
+    position: sticky;
+    top: 0;
+    background-color: var(--primary-color); /* Replace with your desired background color */
+    z-index: 100; /* Adjust the z-index as needed */
+}
+
+header .nav-container .logo {
+    display: flex;
+    min-width: 10px;
+    justify-content: flex-end;
+}
+
+header .nav-container .logo img {
+    width: 75px;
+}
+
+header .search {
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+    height: 100%;
+    
+}
+
+header .search .search-container {
+    width: 510px;
+    height: 40px;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 23%);
+    display: flex;
+}
+
+header .search .search-container input {
+    width: calc(100% - 30px);
+    padding: 16px;
+    outline: none;
+    border: none;
+    /* font-weight: bold; */
+    font-size: 16px;
+}
+
+header .search .search-container button {
+    width: 43px;
+    height: 100%;
+    padding: 0 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: white;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+}
+
+/* Apply a white background and white text color to the menu button */
+.menu button {
+    background-color: var(--primary-color); /* Replace with your primary color */
+    color: white;
+    border: none; /* Remove button border if desired */
+    padding: 10px 20px; /* Adjust padding as needed */
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    margin: 15px;
+    font-size: 20px;
+}
+
+
+
+header .menu svg {
+    margin-left: 5px;
+    background-color: var(--primary-color);
+}
+
+header .storeicon {
+    margin-left: 330px;
+    
+}
+
+header .storeicon button {
+    background-color: var(--primary-color); /* Replace with your primary color */
+    color: white;
+    border: none; /* Remove button border if desired */
+    padding: 10px 20px; /* Adjust padding as needed */
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    margin: 15px;
+    font-size: 20px;
+}
+
+header .Cart {
+    height: 1000%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+header .Cart svg {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+header .Cart a {
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
