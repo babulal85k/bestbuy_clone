@@ -15,17 +15,26 @@ body
 }
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
     background-color: var(--primary-color);
-    height: 70px;
-    margin-bottom: 1px;
+    height: 75px;
+    border-bottom: 1px solid #4976e6;
+    box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
 
 .nav-container {
     display: flex;
     align-items: center;
+    width: 100%;
     height: 100%;
-    position: sticky;
     background-color: var(--primary-color); 
 }
 
@@ -138,6 +147,7 @@ header .Cart a {
 }
 
 .bottom-nav {
+    padding-top: 78px;
     display: flex;
     background-color: var(--primary-color);
     justify-content: space-between;
@@ -187,4 +197,13 @@ header .Cart a {
   .account > a, .more > a, .recent > a, .order > a, .saved > a {
     color: white;
     font-size: 14px;
+  }
+
+  section {
+    height: 800px;
+    margin-top: 1000px;
+  }
+
+  .cont {
+    background-color: var(--primary-color) ;
   }
