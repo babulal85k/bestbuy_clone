@@ -14,34 +14,25 @@ body
     --primary-color: rgb(0,70,190);
 }
 
-.container {
-    padding: 0 8px;
-}
-
 header {
     background-color: var(--primary-color);
     height: 70px;
-}
-
-header .nav-container {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
+    border: 2px solid black;
 }
 
 .nav-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
     position: sticky;
-    top: 0;
-    background-color: var(--primary-color); /* Replace with your desired background color */
-    z-index: 100; /* Adjust the z-index as needed */
+    background-color: var(--primary-color); 
 }
 
-header .nav-container .logo {
+
+.nav-container .logo {
     display: flex;
-    min-width: 10px;
-    justify-content: flex-end;
+    margin-left: 10%;
+    cursor: pointer;
 }
 
 header .nav-container .logo img {
@@ -57,7 +48,7 @@ header .search {
 }
 
 header .search .search-container {
-    width: 510px;
+    width: 650px;
     height: 40px;
     background-color: white;
     box-shadow: 0 2px 4px 0 rgb(0 0 0 / 23%);
@@ -69,7 +60,7 @@ header .search .search-container input {
     padding: 16px;
     outline: none;
     border: none;
-    /* font-weight: bold; */
+    font-family: inherit;
     font-size: 16px;
 }
 
@@ -124,22 +115,41 @@ header .storeicon button {
 }
 
 header .Cart {
-    height: 1000%;
     display: flex;
-    /* justify-content: center; */
-    align-items: center;
     color: white;
+    gap: 5px;
     font-size: 20px;
     font-weight: 500;
-}
-
-header .Cart svg {
-    margin-right: 8px;
-    cursor: pointer;
+    
 }
 
 header .Cart a {
+    display: flex;
     color: white;
-    cursor: pointer;
     font-weight: 500;
+    text-decoration: none;
+    color: inherit;
+
+}
+
+a:hover {
+    border-bottom: 2px solid #fff; /* Add an underline on hover, adjust color as needed */
+}
+
+.bottom-nav {
+    border: 2px solid brown;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.bottom-nav > :nth-child(1) {
+    display: flex;
+    margin-left: 10%;
+    font-size: 14px;
+}
+
+.bottom-nav > :nth-child(2) {
+    display: flex;
+    margin-right: 10%;
 }
