@@ -156,6 +156,7 @@ header .Cart a {
 
 .bottom-nav > :nth-child(1) {
     display: flex;
+    cursor: pointer;
     gap: 16px;
     margin-left: 10%;
     font-size: 13px;
@@ -206,4 +207,8 @@ header .Cart a {
 
   .cont {
     background-color: var(--primary-color) ;
+  }
+
+  section {
+    height: 800px;
   }
