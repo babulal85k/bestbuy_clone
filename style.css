@@ -17,8 +17,9 @@ body
 header {
     background-color: var(--primary-color);
     height: 70px;
-    border: 2px solid black;
+    margin-bottom: 1px;
 }
+
 
 .nav-container {
     display: flex;
@@ -132,24 +133,58 @@ header .Cart a {
 
 }
 
-a:hover {
+.Cart > a:hover {
     border-bottom: 2px solid #fff; /* Add an underline on hover, adjust color as needed */
 }
 
 .bottom-nav {
-    border: 2px solid brown;
     display: flex;
+    background-color: var(--primary-color);
     justify-content: space-between;
 
 }
 
 .bottom-nav > :nth-child(1) {
     display: flex;
+    gap: 16px;
     margin-left: 10%;
-    font-size: 14px;
+    font-size: 13px;
+    color: white;
+    padding-top: 13px;
+    padding-bottom: 13px;
 }
 
 .bottom-nav > :nth-child(2) {
     display: flex;
+    gap: 16px;
     margin-right: 10%;
+    font-size: 13px;
+    color: white;
+    padding-top: 13px;
+    padding-bottom: 13px;
 }
+
+.first > p:hover {
+    border-bottom: .5px solid #fff; /* Add an underline on hover, adjust color as needed */
+}
+
+.second > button, .first > button {
+    display: flex;
+    cursor: pointer;
+    gap: 5px;
+    border: none;
+    background: var(--primary-color);
+}
+
+.account > svg, .more > svg {
+    fill: white;
+    stroke: white;
+    stroke-width: 1;
+    background-color: var(--primary-color);
+    width: 15px;
+  }
+
+  .account > a, .more > a, .recent > a, .order > a, .saved > a {
+    color: white;
+    font-size: 14px;
+  }
