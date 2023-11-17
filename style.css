@@ -455,22 +455,124 @@ header .Cart a {
 .important {
   display: flex;
   flex-direction: row;
+  background-color: rgb(240,242,244);
+  width: auto;
 }
 
 .links {
   display: flex;
-  flex-direction: row;
-  border: 2px solid red;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  width: 70%;
+}
+
+.enquery {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  /* border: 2px solid black; */
 }
 
 .sub-links {
   display: flex;
-  flex-direction: column;
+  width: 100%;
+  padding: 30px;
+  /* border: 2px solid yellow; */
+  flex-direction: row;
 }
 
-.order {
+.sub-links2 {
+  display: flex;
+  width: 100%;
+  padding: 30px;
+  flex-direction: row;
+
+}
+
+.order2 {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  width: 31%;
+  /* border: 2px solid brown; */
+  gap: 13px;
 }
 
+.support {
+  display: flex;
+  width: 31%;
+  /* border: 2px solid brown; */
+  flex-direction: column;
+  gap: 13px;
+}
+
+.partner {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid; */
+  width: 31%;
+  gap: 13px;
+}
+
+.order2 > a {
+  text-decoration: none;
+  font-size: 12px;
+  color: var(--primary-color);
+}
+
+.support > a {
+  text-decoration: none;
+  font-size: 12px;
+  color: var(--primary-color);
+}
+
+.partner > a {
+  text-decoration: none;
+  font-size: 12px;
+  color: var(--primary-color);
+}
+
+.payment {
+  display: flex;
+  flex-direction: column;
+  width: 31%;
+  /* border: 2px solid brown; */
+  gap: 13px;
+}
+
+.reward {
+  display: flex;
+  width: 31%;
+  /* border: 2px solid brown; */
+  flex-direction: column;
+  gap: 13px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid; */
+  width: 31%;
+  gap: 13px;
+}
+
+.payment > a {
+  text-decoration: none;
+  font-size: 12px;
+  color: var(--primary-color);
+}
+
+.reward > a {
+  text-decoration: none;
+  font-size: 12px;
+  color: var(--primary-color);
+}
+
+.about > a {
+  text-decoration: none;
+  font-size: 12px;
+  color: var(--primary-color);
+}
+
+footer {
+  background-color: rgb(240,242,244);
+}
