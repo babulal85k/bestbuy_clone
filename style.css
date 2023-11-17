@@ -418,7 +418,15 @@ header .Cart a {
 
 .icon-nav {
   display: flex;
+  gap: 55px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid red;
   background-color: rgb(240,242,244);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgb(196,196,196);
 }
 
 .icon-nav-cant {
@@ -428,11 +436,41 @@ header .Cart a {
   width: 20%;
 }
 
+.icon-nav-cant > a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
 .icon-logo {
-  width: 20%;
+  width: 22%;
 }
 
 .icon-logo > svg {
   fill: rgb(112,117,125);
+}
+
+.important {
+  display: flex;
+  flex-direction: row;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid red;
+}
+
+.sub-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.order {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
