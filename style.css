@@ -61,7 +61,7 @@ header .search {
 header .search .search-container {
     width: 72%;
     height: 40px;
-    /* border: 2px solid red; */
+    border-radius: 5px;
     background-color: white;
     box-shadow: 0 2px 4px 0 rgb(0 0 0 / 23%);
     display: flex;
@@ -70,6 +70,8 @@ header .search .search-container {
 header .search .search-container input {
     width: 100%;
     padding: 16px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     outline: none;
     border: none;
     font-family: inherit;
@@ -80,18 +82,19 @@ header .search .search-container button {
     width: 42px;
     height: 100%;
     padding: 0 8px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: none;
     background-color: white;
-    border-radius: 0 2px 2px 0;
     cursor: pointer;
 }
 
-/* Apply a white background and white text color to the menu button */
-.menu button {
-    background-color: var(--primary-color); /* Replace with your primary color */
+
+.menu-nav button {
+    background-color: var(--primary-color);
     color: white;
     border: none;
     cursor: pointer;
@@ -103,8 +106,7 @@ header .search .search-container button {
 }
 
 
-
-header .menu svg {
+header .menu-nav svg {
     margin-left: 5px;
     background-color: var(--primary-color);
 }
@@ -117,9 +119,9 @@ header .storeicon {
 }
 
 header .storeicon button {
-    background-color: var(--primary-color); /* Replace with your primary color */
+    background-color: var(--primary-color);
     color: white;
-    border: none; /* Remove button border if desired */
+    border: none;
     padding: 10px 20px;
     cursor: pointer;
     align-items: center;
@@ -147,7 +149,7 @@ header .Cart a {
 }
 
 .Cart > a:hover {
-    border-bottom: 2px solid #fff; /* Add an underline on hover, adjust color as needed */
+    border-bottom: 2px solid #fff;
 }
 
 .bottom-nav {
@@ -169,13 +171,13 @@ header .Cart a {
 
 .bottom-nav > div {
   display: flex;
-  gap: 2px; /* Adjust as needed */
+  gap: 2px;
   align-items: center;
 }
 
 .bottom-nav p {
   margin: 0;
-  padding: 5px; /* Adjust as needed */
+  padding: 5px;
   font-size: 13px;
   flex-grow: 1;
   color: white;
@@ -214,7 +216,7 @@ header .Cart a {
 }
 
 .first > p:hover {
-    border-bottom: .5px solid #fff; /* Add an underline on hover, adjust color as needed */
+    border-bottom: .5px solid #fff;
 }
 
 .second > button, .morebutton > button {
@@ -272,7 +274,6 @@ header .Cart a {
 
   .offer > :nth-child(1){
     display: flex;
-    /* border: 2px solid green; */
     justify-content: center;
     flex-direction: column;
     align-items: left;
@@ -280,7 +281,6 @@ header .Cart a {
 
   .offer > :nth-child(2) {
     display: flex;
-    /* border: 2px solid blue; */
     margin-left: 60px;
     gap: 10px;
     justify-content: center;
@@ -332,4 +332,13 @@ header .Cart a {
     padding: 4px;
     border: none;
     border-radius: 3px;
+  }
+
+  .dropdown-menu > ul{
+    /* display: flex; */
+    background-color: white;
+    width: 80px;
+    border: 2px solid grey;
+    margin-top: 20px;
+
   }
