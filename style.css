@@ -415,3 +415,24 @@ header .Cart a {
   text-decoration: none;
   color: black;
 }
+
+.icon-nav {
+  display: flex;
+  background-color: rgb(240,242,244);
+}
+
+.icon-nav-cant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+}
+
+.icon-logo {
+  width: 20%;
+}
+
+.icon-logo > svg {
+  fill: rgb(112,117,125);
+}
+
