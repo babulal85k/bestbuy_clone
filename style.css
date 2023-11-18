@@ -242,7 +242,7 @@ header .Cart a {
     width: 15px;
   }
 
-  .account > a, .morebutton > .more > a, .recent > a, .order > a, .saved > a {
+.account > a, .morebutton > .more > a, .recent > a, .order > a, .saved > a {
     color: white;
     font-size: 14px;
   }
@@ -711,4 +711,49 @@ footer {
   text-decoration: none;
   font-size: 12px;
   color: var(--primary-color);
+}
+
+.feedback {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-bottom: 1px solid #90959e;
+}
+
+.feed > p {
+  font-size: 13px;
+}
+
+.buy-canada > a {
+  font-size: 13px;
+  text-decoration: none;
+  padding-left: 30px;
+}
+
+.additional {
+  display: flex;
+  margin: 20px 0px 20px 30px;
+  justify-content: space-evenly;
+}
+
+.additional > div {
+  display: flex;
+  justify-content: flex-start;
+  width: 10%;
+}
+
+.additional > div > a {
+  text-decoration: none;
+  font-size: 12px;
+  text-align: right;
+}
+
+.ended {
+  padding: 20px;
+  padding-bottom: 20px;
 }
