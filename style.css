@@ -757,3 +757,36 @@ footer {
   padding: 20px;
   padding-bottom: 20px;
 }
+
+.dropdown-menu > ul {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 400px;
+  width: 300px;
+  background-color: white;
+}
+.dropdown-menu > ul :nth-child(1) {
+  display: flex;
+  margin-top: -6px;
+}
+
+.dropdown-menu > ul >li {
+  display: flex;
+  border-bottom: 1px solid #90959e;
+  background-color: white;
+  color: var(--primary-color);
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 2px;
+  padding-right: 20px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  cursor: pointer;
+
+}
+
+.dropdown-menu > ul > li:hover {
+  background-color: #ddd;
+}

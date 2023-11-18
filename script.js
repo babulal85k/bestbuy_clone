@@ -1,3 +1,5 @@
+
+
 let menuButton = document.getElementById('menu');
     let menuContainer = document.querySelector('.menu-nav');
 
@@ -31,7 +33,7 @@ let menuButton = document.getElementById('menu');
             // Create the menu
             menu = document.createElement('div');
             menu.className = 'dropdown-menu';
-            menu.innerHTML = '<ul><li>Item 1</li><li>Item 2</li><li>Item 3</li></ul>';
+            menu.innerHTML = '<ul><li></><li>Deals</li><li>Supports & Service</li><li>Brands</li><li>Shop by Department</li><li>Appliances</li><li>TV & Home Theater</li><li>Computers & Tablets</li><li>Cell Phones</li></ul>';
 
             // Position the menu below the menu button
             let rect = menuButton.getBoundingClientRect();
@@ -52,3 +54,5 @@ let menuButton = document.getElementById('menu');
         // Update the menu button icon
         menuButton.innerHTML = isOpen ? closeSvg : openSvg;
     }
+
+    
