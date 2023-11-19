@@ -8,13 +8,9 @@ Developed a fully functional website that mirrors the Best Buy platform. The clo
 
 ### Functionalities
 
-* User Registration and Authentication
-* Product Search and Navigation
-* Category-specific Pages
-* Detailed Product Descriptions
-* User Reviews and Ratings
-* Add to Cart and Checkout
-* 
+* User Registration
+* Product Navigation
+* Add to Cart
 
 ### Tech Stack
 
