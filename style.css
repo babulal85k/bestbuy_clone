@@ -790,3 +790,7 @@ footer {
 .dropdown-menu > ul > li:hover {
   background-color: #ddd;
 }
+
+#account {
+  border: 2px solid;
+}
